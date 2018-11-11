@@ -10,22 +10,21 @@ import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.Date;
 
-@Entity
+/*@Entity
 @Table(name = "tb_testRB")
 @EntityListeners(AuditingEntityListener.class)
-@JsonIgnoreProperties(value = {"createdAt", "updatedAt"}, 
-        allowGetters = true)
+*///@JsonIgnoreProperties(value = {"createdAt", "updatedAt"},       allowGetters = true)
 public class tb_testTB implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+  //  @Id
+  //  @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int serv_seq_id;
 
-    @NotBlank
+    //@NotBlank
     private String serv_type;
 
-    @NotBlank
+   // @NotBlank
     private String serv_ip;
-    @NotBlank
+   // @NotBlank
     private String serv_host;    
 /*
     @Column(nullable = false, updatable = false)
