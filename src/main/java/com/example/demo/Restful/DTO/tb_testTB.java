@@ -10,10 +10,10 @@ import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.Date;
 
-/*@Entity
+@Entity
 @Table(name = "tb_testRB")
-@EntityListeners(AuditingEntityListener.class)
-*///@JsonIgnoreProperties(value = {"createdAt", "updatedAt"},       allowGetters = true)
+//@EntityListeners(AuditingEntityListener.class)
+//@JsonIgnoreProperties(value = {"createdAt", "updatedAt"},       allowGetters = true)
 public class tb_testTB implements Serializable {
   //  @Id
   //  @GeneratedValue(strategy = GenerationType.IDENTITY)

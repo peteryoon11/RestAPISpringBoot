@@ -19,4 +19,9 @@ public class RestfulTest {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
+    @RequestMapping("/v2/greeting")
+    public Greeting v2_greeting(@RequestParam(value="name", defaultValue="World") String name) {
+        return new Greeting(counter.incrementAndGet(),
+                            String.format(template, name));
+    }
 }
