@@ -1,5 +1,4 @@
-package com.example.demo.Restful.DTO;
-
+package com.restdbtest.rest.DTO;
 
 
 public class Greeting {
@@ -7,8 +6,8 @@ public class Greeting {
     private  long id;
     private  String content;
     private  String createAt;
-   
-    
+
+
     public Greeting(long id, String content) {
         this.id = id;
         this.content = content;
@@ -22,3 +21,4 @@ public class Greeting {
         return content;
     }
 }
+
