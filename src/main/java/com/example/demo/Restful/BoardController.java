@@ -7,4 +7,5 @@ import com.example.demo.Restful.DTO.NoteRepository;
 public class BoardController{
 	@Autowired
 	private NoteRepository noteRepository;
+	private BoardReposirty boardRepositroy;
 }
